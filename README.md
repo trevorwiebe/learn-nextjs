@@ -1,6 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## This project was created to help me learn and understand Next.js at a deeper level. 
+### Things I learned:
+- How folder structure and file name are use in navigation, showing errors and loading, etc.
+- The difference between static and dynamic routes, and when pages are cached.
+- The difference between server components and client components and when to use each one.
+- Wildcard routes.
 
-## Getting Started
+Project introduction
+https://vimeo.com/1146273691/0ae305529e
+
+Folders, Files and Navigation
+https://vimeo.com/1146273906/3e99100e1c
+
+Static and Dynamic Routes and Caching
+https://vimeo.com/1146274884/7896e87bbf
+
+Server vs Client Components
+https://vimeo.com/1146276185/90ab1b79a1
+
+## How to run this project on your machine
 
 First, run the development server:
 
@@ -28,9 +45,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
