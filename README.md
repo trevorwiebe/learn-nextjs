@@ -5,16 +5,23 @@
 - The difference between server components and client components and when to use each one.
 - Wildcard routes.
 
-Project introduction
+#### Project introduction
+
 https://vimeo.com/1146273691/0ae305529e
 
-Folders, Files and Navigation
+
+#### Folders, Files and Navigation
+
 https://vimeo.com/1146273906/3e99100e1c
 
-Static and Dynamic Routes and Caching
+
+#### Static and Dynamic Routes and Caching
+
 https://vimeo.com/1146274884/7896e87bbf
 
-Server vs Client Components
+
+#### Server vs Client Components
+
 https://vimeo.com/1146276185/90ab1b79a1
 
 ## How to run this project on your machine
