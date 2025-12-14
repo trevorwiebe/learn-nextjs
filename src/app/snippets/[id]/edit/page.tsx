@@ -1,6 +1,7 @@
 import { db } from "@/db"
 import { notFound } from 'next/navigation'
 import SnippetEditForm from "@/components/snippet-edit-form";
+import Link from 'next/link';
 
 interface SnippetShowPageProps {
   params: Promise<{
@@ -21,6 +22,9 @@ export default async function SnippetEditPage(props: SnippetShowPageProps){
     }
 
     return <div>
+      <div className="my-2">
+        <Link href={`/snippets/${snippet.id}/`}  className="border rounded p-2">{"<- Back"}</Link>
+      </div>
       <h1 className="text-xl font-bold my-4">Edit snippet</h1>
       <SnippetEditForm snippet={snippet}/>
     </div>

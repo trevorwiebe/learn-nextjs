@@ -24,6 +24,9 @@ export default async function SnippetShowPage(props: SnippetShowPageProps){
     const deleteSnippetActions = actions.deleteSnippet.bind(null, snippet.id);
 
     return <div>
+      <div className="my-2">
+        <Link href={`/`}  className="border rounded p-2">{"<- Back"}</Link>
+      </div>
       <div className="flex my-4 justify-between items-center">
         <h1 className="text-xl font-bold">{snippet.title}</h1>
         <div className="flex gap-4">
