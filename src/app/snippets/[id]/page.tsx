@@ -10,8 +10,6 @@ interface SnippetShowPageProps {
 }
 
 export default async function SnippetShowPage(props: SnippetShowPageProps){
-
-    await new Promise((r) => setTimeout(r, 1000));
     
     const { id } = await props.params;
  
@@ -26,7 +24,7 @@ export default async function SnippetShowPage(props: SnippetShowPageProps){
     const deleteSnippetActions = actions.deleteSnippet.bind(null, snippet.id);
 
     return <div>
-      <div className="flex m-4 justify-between items-center">
+      <div className="flex my-4 justify-between items-center">
         <h1 className="text-xl font-bold">{snippet.title}</h1>
         <div className="flex gap-4">
           <Link href={`/snippets/${snippet.id}/edit`} className="p-2 border rounded">Edit</Link>

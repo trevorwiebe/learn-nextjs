@@ -26,13 +26,13 @@ export default function SnippetEditForm({snippet}: SnippetEditFormProps){
             <Editor
                 height="40vh"
                 theme='vs-dark'
-                language='javascript'
+                language='kotlin'
                 defaultValue={snippet.code}
                 options={{minimap: {enabled: false}}}
                 onChange={handleEditorChange}
             />
-            <form action={editSnippetAction}>
-                <button type="submit" className="p-2 border rounded">Save</button>
+            <form className='text-end' action={editSnippetAction}>
+                <button type="submit" className="p-2 my-4 border rounded">Save</button>
             </form>
         </div>
     )

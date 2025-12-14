@@ -34,7 +34,7 @@ export default function SnippetCreatePage(){
                 </div>
                 <div className="flex gap-4">
                     <label className="w-12" htmlFor="code">
-                        code
+                        Code
                     </label>
                     <textarea
                         name="code"
